@@ -1,0 +1,25 @@
+<!doctype>
+<html>
+    <head>
+        <title>prime number</title>
+    </head>
+    <body>
+        <h1>checking whether the number is prime or not</h1>
+        <script>
+            var num, i, count=0;
+num=19;
+for(i=2; i<num; i++)
+{
+  if(num%2==0)
+  {
+    count++;
+    break;
+  }
+}
+if(count==0)
+  console.log(num + " is a Prime Number");
+else
+ console.log(num + " is not a Prime Number");
+        </script>
+    </body>
+</html>

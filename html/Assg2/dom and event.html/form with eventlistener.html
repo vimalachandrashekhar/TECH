@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Form Page</title>
+    <style>
+      
+      body {
+        font-family: Arial;
+        background-color: white;
+      }
+
+      form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        width: 400px;
+        margin: 50px auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <label for="name">Name:</label>
+     <center> <input type="text" id="name" name="name" ><br><br></center>
+
+
+      <label for="email">Email:</label>
+      <center><input type="email" id="email" name="email" ><br><br></center>
+
+      <label for="message">Message:</label>
+      <center><textarea id="message" name="message" ></textarea><br><br><center>
+
+      <center><button id="submit" type="submit" value="Submit">
+        Click me
+      </button></center>
+    </form>
+    <script>
+        var button = document.getElementById("submit");
+        
+// Add an event listener to the button
+ button.addEventListener("click", function() {
+  alert("welcome")
+});
+    </script>
+</body>
+</html>

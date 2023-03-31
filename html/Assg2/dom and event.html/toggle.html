@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .lightgray{
+            background-color : lightgray;
+        }
+        
+    </style>
+<body>
+    
+<button id="myButton">Click me!</button>
+<button id="button">toggle</button>
+<script>
+// Get the button element
+var button = document.getElementById("myButton");
+var button1 =document.getElementById("button");
+
+// Add an event listener to the button
+button.addEventListener("click", function() {
+  alert("welcome");
+});
+button1.addEventListener("click", function(){
+    alert("thank you");
+    var tog=document.body;
+    tog.classList.toggle("lightgray");
+});
+</script>
+
+</body>
+</html>

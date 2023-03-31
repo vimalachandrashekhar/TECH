@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My JavaScript Program</title>
+  </head>
+  <body>
+    <h4>diaplaying current day and time</h4>
+    <script>
+        var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+        var today = new Date();
+
+var dayOfWeek = daysOfWeek[today.getDay()];
+var hours = today.getHours() % 12 || 12;
+var minutes = today.getMinutes().toString().padStart(2, "0");
+var seconds = today.getSeconds().toString().padStart(2, "0");
+var ampm = today.getHours() < 12 ? "AM" : "PM";
+
+var currentTime = hours + " " + ampm + " : " + minutes + " : " + seconds;
+
+alert("Today is: " + dayOfWeek);
+alert("Current time is: " + currentTime);
+    </script>
+  </body>
+</html>
