@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.form-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  font-weight: bold;
+  
+}
+
+input,
+textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left:10px;
+
+}
+
+button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: green;
+}
+
+button[type="exit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px;
+  width:80px;
+}
+
+button[type="exit"]:hover {
+  background-color: green;
+}
+.form-container {
+  /* existing styles */
+
+  animation-name: slide-in;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  border-radius: 20px;
+  border-style:double;
+  border-color: blue;
+  background-color: aqua;
+  
+  
+}
+
+
+
+form{
+  border-radius: 20px;
+  border-style:double;
+  border-color: blue;
+  background-color: aqua;
+  width:500px;
+  margin :0 auto;
+}

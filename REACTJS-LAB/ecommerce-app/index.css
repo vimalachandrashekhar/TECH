@@ -1,0 +1,143 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #fff;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.cart {
+  margin-left: auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.products {
+  flex-basis: 70%;
+}
+
+.product {
+  flex-basis: calc(33.33% - 1rem);
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.product img {
+  width: 50%;
+}
+
+.product h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0 0;
+}
+
+.product p {
+  font-size: 0.875rem;
+  margin: 0.5rem 0;
+}
+
+.product .price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.product button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.cart-items {
+  flex-basis: 30%;
+  padding: 0 2rem;
+}
+
+.cart-items h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.cart-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.cart-item img {
+  width: 75px;
+}
+
+.cart-item h4 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.cart-item p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.cart-item button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+body{
+  background-image: url('https://img.pikbest.com/png-images/20191028/push-shopping-cart-to-woman-gif_2515298.png!bw700');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30% 40%;
+}

@@ -1,0 +1,78 @@
+/* Center the form and CountdownTimer */
+form,
+.CountdownTimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Style the form input */
+form input {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+/* Style the form submit button */
+form button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f7d57d;
+  color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Style the CountdownTimer */
+.CountdownTimer {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+}
+
+/* Style the CountdownTimer units */
+.CountdownTimer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f7d57d;
+  color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.457);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+.div{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  color:blue;
+}
+body{
+  background-image: url('https://media.tenor.com/hQz0Kl373E8AAAAi/loading-waiting.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: yellow;
+}
+label{
+  color:brown;
+  
+}
+form{
+  color:aqua
+}
